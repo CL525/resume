@@ -1,0 +1,14 @@
+.basic_info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  &-item {
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+    .icon {
+      margin-right: 4px;
+    }
+  }
+}

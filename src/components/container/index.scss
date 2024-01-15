@@ -1,0 +1,31 @@
+.module_container {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 24px;
+  border: 1px solid #3175E0;
+  border-radius: 8px;
+  padding: 1em 0.5em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  transition: 400ms transform, 400ms box-shadow, 400ms background-color;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.01, 1.01);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+
+  &-title {
+    position: absolute;
+    left: 20px;
+    top: -12px;
+    background-color: #fff;
+    padding: 0 4px;
+    z-index: 2;
+    font-size: 18px;
+    color: #3175E0;
+  }
+}

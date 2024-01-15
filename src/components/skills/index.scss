@@ -1,0 +1,11 @@
+.skills_container {
+  width: 40%;
+  padding: 0.5em 1em;
+  &-item {
+    display: flex;
+    .name {
+      @include font(16px, 600, $base-color);
+      width: 100px;
+    }
+  }
+}

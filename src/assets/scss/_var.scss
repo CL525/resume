@@ -1,0 +1,8 @@
+@mixin font($fontSize: 14px, $fontWeight: normal, $color: #333, $lineHeight: 1.5) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $color;
+  line-height: $lineHeight;
+}
+
+$base-color: #3175E0;

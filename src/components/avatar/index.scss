@@ -1,0 +1,27 @@
+.avatar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: #C0DEF5;
+  padding: 0.5em 1em;
+  .name {
+    font-size: 30px;
+  }
+  .position {
+    font-style: italic;
+    @include font(16px, 400, #fff);
+    text-decoration: green wavy underline;
+    text-decoration-thickness: 2px;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+}

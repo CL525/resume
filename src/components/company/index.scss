@@ -1,0 +1,29 @@
+.company {
+  width: 100%;
+  &_item {
+    margin: 8px 0;
+    padding: 0 1em;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .name {
+      @include font(16px, 600,#D0011C);
+    }
+    .period {
+      @include font(14px, 500,#3175E0);
+    }
+  }
+  .position {
+    display: flex;
+    font-style: italic;
+    @include font(14px, 400, #303578);
+    font-style: italic;
+  }
+  .desc {
+    ul {
+      list-style-type: disc;
+    }
+  }
+}

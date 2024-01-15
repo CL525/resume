@@ -1,0 +1,51 @@
+.project_container {
+  padding: 0.5em 1em;
+  width: 100%;
+  &-item {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+    .name {
+      @include font(15px, 600,#D0011C);
+      .title::before {
+        display: inline-block;
+        content: '';
+        height: 10px;
+        border-left: 1px solid #D0011C;
+        margin: 0 10px;
+      }
+      .time {
+        float: right;
+        font-weight: normal;
+      }
+    }
+    .skills {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      .skills-item {
+        @include font(14px, 500, #fff);
+        background-color: $base-color;
+        opacity: 0.7;
+        padding: 2px 6px;
+        border-radius: 4px;
+        margin-right: 8px;
+      }
+    }
+    .desc {
+      margin-top: 10px;
+      ul {
+        margin: 0 0 0 28px;
+        li {
+        
+        }
+      }
+    }
+  }
+}
