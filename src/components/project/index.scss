@@ -15,6 +15,9 @@
       display: flex;
       flex-wrap: wrap;
       @include font(15px, 600,#D0011C);
+      .title {
+        flex-grow: 1;
+      }
       .title::before {
         display: inline-block;
         content: '';
@@ -23,7 +26,6 @@
         margin: 0 10px;
       }
       .time {
-        float: right;
         font-weight: normal;
       }
     }
