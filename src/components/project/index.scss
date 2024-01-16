@@ -12,6 +12,8 @@
       padding-bottom: 0;
     }
     .name {
+      display: flex;
+      flex-wrap: wrap;
       @include font(15px, 600,#D0011C);
       .title::before {
         display: inline-block;
@@ -28,7 +30,9 @@
     .skills {
       margin-top: 10px;
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
+      line-height: 25px;
+      // align-items: center;
       .skills-item {
         @include font(14px, 500, #fff);
         background-color: $base-color;
@@ -36,6 +40,7 @@
         padding: 2px 6px;
         border-radius: 4px;
         margin-right: 8px;
+        margin-bottom: 8px;
       }
     }
     .desc {
@@ -46,6 +51,9 @@
         
         }
       }
+    }
+    .mt2 {
+      margin-top: 2px;
     }
   }
 }

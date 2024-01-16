@@ -35,7 +35,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-
+      <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2024044867号-1</a>
     </div>
   );
 }

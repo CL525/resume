@@ -22,7 +22,7 @@ export default function() {
                     )
                   })}
                 </div>
-                <div className='desc'>
+                <div className='desc mt2'>
                   <div>项目描述：</div>
                   <ul>
                     {map(data.desc, (d, i) => {

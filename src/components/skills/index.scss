@@ -1,5 +1,6 @@
 .skills_container {
-  width: 40%;
+  width: 100%;
+  max-width: 550px;
   padding: 0.5em 1em;
   &-item {
     display: flex;
