@@ -10,8 +10,8 @@
   }
   .position {
     font-style: italic;
-    @include font(16px, 400, #fff);
-    text-decoration: green wavy underline;
+    @include font(16px, 400, #000);
+    text-decoration: #3175E0 wavy underline;
     text-decoration-thickness: 2px;
   }
   .img {
