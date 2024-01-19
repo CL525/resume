@@ -13,5 +13,6 @@ export default defineConfig({
   sassLoader: {
     additionalData: '@import "@/assets/scss/_var.scss";',
   },
+  exportStatic: {},
   hash: true
 });
