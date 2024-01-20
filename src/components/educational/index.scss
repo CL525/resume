@@ -1,0 +1,23 @@
+.educational_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.5em 1em;
+  @include font(15px, 600,#D0011C);
+  .icon {
+    margin-right: 4px;
+  }
+  .grow {
+    flex-grow: 1;
+  }
+  .title::before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    border-left: 1px solid #D0011C;
+    margin: 0 10px;
+  }
+  .time {
+    font-weight: normal;
+  }
+}

@@ -4,6 +4,7 @@ import PersonalAdvantage from '@/components/personal-advantage';
 import Company from '@/components/company';
 import Project from '@/components/project';
 import Skills from '@/components/skills';
+import Educational from '@/components/educational';
 import downloadResume from '@/utils/html2Canvas';
 import './index.scss';
 import { Button } from 'antd';
@@ -19,6 +20,7 @@ export default function HomePage() {
         <Company />
         <Project />
         <Skills />
+        <Educational />
       </main>
 
       <div className="template__background">

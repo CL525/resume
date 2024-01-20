@@ -5,5 +5,5 @@ export const BasicInfoData = {
   mobile: { title: '手机', value: '17621625233' },
   email: { title: '邮箱', value: '790869483@qq.com' },
   location: { title: '籍贯', value: '安徽安庆' },
-  college: { title: '大学', value: '本科（滁州学院 2012 - 2016）' },
+  college: { title: '大学', value: '本科' },
 }

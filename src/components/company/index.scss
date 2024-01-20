@@ -10,10 +10,10 @@
     align-items: center;
     flex-wrap: wrap;
     .name {
-      @include font(16px, 600,#D0011C);
+      @include font(16px, 600, #D0011C);
     }
     .period {
-      @include font(14px, 500,#3175E0);
+      @include font(15px, normal, #D0011C);
     }
   }
   .position {
