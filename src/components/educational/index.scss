@@ -2,22 +2,25 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  padding: 0.5em 1em;
-  @include font(15px, 600,#D0011C);
+  padding: 1em 1em;
+  @include font(15px, 600);
   .icon {
     margin-right: 4px;
   }
   .grow {
     flex-grow: 1;
   }
-  .title::before {
+  &-titlle {
+    font-weight: normal;
+  }
+  &-title::before {
     display: inline-block;
     content: '';
     height: 10px;
-    border-left: 1px solid #D0011C;
-    margin: 0 10px;
+    border-left: 1px solid #ccc;
+    margin: 0 15px;
   }
-  .time {
+  &-time {
     font-weight: normal;
   }
 }
