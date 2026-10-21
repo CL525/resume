@@ -8,7 +8,7 @@ export default function Avatar() {
       {/* <img className='waves' src={waves} /> */}
       <div className="name">
         柴 林
-        <div className="position">资深前端开发工程师</div>
+        <div className="position">前端开发工程师</div>
       </div>
       <div className="img">
         <img className="avatar" src={avatar} />
